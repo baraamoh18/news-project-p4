@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yalla shoot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+         
+          <div class="logo">
+            <div class="logo-circle">⚽</div>
+          </div>
+
+    
+          <nav class="nav">
+            <a href="/main/main.html" class="nav-link active">Home</a>
+            <a href="/matches/matches.html" class="nav-link">Matches</a>
+            <a href="/stats/stats.html" class="nav-link">Stats</a>
+          </nav>
+
+        
+        </div>
+      </div>
+    </header>
+
+
+    <main class="main-content">
+      <div class="container">
+        <div class="layout">
+         
+          <div class="content-column">
+            
+            <section id="sports" class="news-section">
+              <h2 class="section-title">Sports</h2>
+              <div class="news-grid" id="sports-news">
+               
+              </div>
+            </section>
+
+            <section id="entertainment" class="news-section">
+              <h2 class="section-title">Entertainment</h2>
+              <div class="news-grid" id="entertainment-news">
+                
+              </div>
+            </section>
+        
+            <section id="business" class="news-section">
+              <h2 class="section-title">Business</h2>
+              <div class="news-grid" id="business-news">
+                
+              </div>
+            </section>
+
+            <section id="politic" class="news-section">
+              <h2 class="section-title">Politic</h2>
+              <div class="news-grid" id="politic-news">
+                 
+              </div>
+            </section>
+          </div>
+
+          <aside class="sidebar">
+            <div class="widget weather-widget">
+              <h3 class="widget-title">Weather</h3>
+              <div id="weather-content" class="widget-content">
+               
+                <div class="weather-display">
+                  <div class="weather-main">
+                    <div>
+                      <div class="weather-temp"></div>
+                      <div class="weather-city"></div>
+                    </div>
+                  </div>
+                  <div class="weather-info">
+                    <div class="weather-condition"></div>
+                    <div class="weather-description"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+         
+            <div class="widget currency-widget">
+              <h3 class="widget-title">Currency</h3>
+              <div id="currency-content" class="widget-content">
+                <div class="loading">Loading rates...</div>
+              </div>
+            </div>
+
+       
+            <div class="widget live-widget">
+              <div class="widget-header">
+                <h3 class="widget-title">Live</h3>
+                <span class="live-indicator">
+                  <span class="live-dot"></span>
+                  LIVE
+                </span>
+              </div>
+              <div id="live-content" class="widget-content">
+                <div class="loading">Loading match...</div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js?v=2"></script>
+  </body>
+</html>

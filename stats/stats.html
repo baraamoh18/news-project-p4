@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>yalla shoot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="p4style.css">
+</head>
+<body>
+     
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+
+        <div class="logo">
+            <div class="logo-circle">⚽</div>
+        </div>
+          <nav class="nav">
+            <a href="/main/main.html" class="nav-link">Home</a>
+            <a href="/matches/matches.html" class="nav-link">Matches</a>
+            <a href="/stats/stats.html" class="nav-link active">Stats</a>
+
+          </nav>
+        </div>
+    </div>
+    </header>
+
+    <div class="container">
+        <h1 class="title">⚽ Premier League Tables ⚽</h1>
+    </div>
+    <div class="tables-container container">
+        
+    </div>
+
+    <section class="player-stats-section container">
+        <div class="player-stats-card">
+            <h2 class="table-title">Top Players Statistics</h2>
+            <div class="player-sort-buttons">
+                <button type="button" class="sort-btn" data-sort="goals">Sort by Goals</button>
+                <button type="button" class="sort-btn" data-sort="yellow">Sort by Yellow Cards</button>
+                <button type="button" class="sort-btn" data-sort="red">Sort by Red Cards</button>
+            </div>
+            <div class="player-table-wrap">
+                <table class="league-table player-table">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Team</th>
+                            <th>Goals</th>
+                            <th>Yellow</th>
+                            <th>Red</th>
+                        </tr>
+                    </thead>
+                    <tbody id="playersContainer"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="table.js?v=2"></script>
+    <script src="player-stats.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yalla shoot</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-circle">⚽</div>
+                </div>
+
+                <nav class="nav">
+                    <a href="/main/main.html" class="nav-link">Home</a>
+                    <a href="/matches/matches.html" class="nav-link active">Matches</a>
+                    <a href="/stats/stats.html" class="nav-link">Stats</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Football Matches</h1>
+
+<div class="filters">
+  <button type="button" class="filter-btn" data-filter="all">All</button>
+  <button type="button" class="filter-btn" data-filter="live">Live</button>
+  <button type="button" class="filter-btn" data-filter="finished">Finished</button>
+  <button type="button" class="filter-btn" data-filter="upcoming">Upcoming</button>
+</div>
+            <div id="matches-container" class="matches-grid">
+                <div class="loading">Loading matches...</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js?v=4"></script>
+</body>
+
+</html>
